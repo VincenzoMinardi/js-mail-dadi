@@ -1,23 +1,23 @@
 const emailElement = prompt('Inserisci email');
 
 const myArr =[
-    'vincenzominardi@live.it', 'pippopluto@gmail.com', 'gianlucaferrari@gmail.com', 'rosannalagrutta@gmail.com'];
+    'vincenzo.minardi@live.it', 'pippopluto@gmail.com', 'gianlucaferrari@gmail.com', 'rosannalagrutta@gmail.com'];
     console.log(myArr);
-    let flag = false
+    let flag = 0
 
-    for (let i = 0; i < myArr.length; i++);{
+    for (let i = 0; i < myArr.length; i++){
         if (emailElement == myArr[i]){
-            console.log (myArr[i]);
-            flag = true
+            flag = 1
+            alert ('Benvenuto a Bordoooo!!!!')
         };
     }
      
-    if(flag === false){
-        alert ('email non valida')
+    if(flag === 0){
+        alert('email non valida')
     }
-    else{
-       console.log ("l'email è valida")
-    }
+    
+       
+    
 
     
 
