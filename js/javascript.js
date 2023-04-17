@@ -9,10 +9,10 @@ const myArr =[
 for (let i = 1; i < myArr.length; i++);{
    
     
-        if (emailElement ){
-            console.log (emailElement);
+        if (emailElement){
+            console.log (myArr);
         }
-        else if(emailElement){
+        else if(myArr){
             console.log (errorEmail);
             
         }
